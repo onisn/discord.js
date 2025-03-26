@@ -3,7 +3,7 @@
 	"name": "@discordjs/discord.js",
 	"version": "0.0.0",
 	"description": "A powerful library for interacting with the Discord API",
-	"private": true,
+	"private": false,
 	"scripts": {
 		"build": "turbo run build --concurrency=4",
 		"build:affected": "turbo run build --filter=...[origin/main] --concurrency=4",
